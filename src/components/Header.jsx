@@ -7,7 +7,7 @@ const Header = () => {
             <h1 className='text-3xl font-black'>Naukri<span className='text-base font-black text-[#0188A6]'>hub</span></h1>
         </div>
         <nav className='hidden md:block'>
-            <ul className='flex gap-x-4 items-center font-SourceSans'>
+            <ul className='flex gap-x-4 items-center font-SourceSans text-primary-black'>
                 <li><span className= "text-sm font-bold " >Home</span></li>
                 <li><span className= "text-sm font-bold " >Govt. Jobs</span></li>
                 <li><span className= "text-sm font-bold " >Admit Cards</span></li>

@@ -7,15 +7,17 @@ const Hero = () => {
       <section className="flex justify-between flex-wrap gap-y-6">
         <div className="self-center space-y-4 flex-1">
           <div className="space-y-2">
-            <h1 className="text-5xl font-bold font-SourceSans">Hundreds of jobs for you</h1>
+            <h1 className="text-5xl font-bold font-SourceSans">
+              Get latest <span className="text-[#0188A6]">Sarkari Naukri</span>{" "}
+              updates
+            </h1>
             <h1 className="text-[#0188A6] text-5xl font-bold font-SourceSans">
               Verified by us.
             </h1>
           </div>
 
           <p className="text-lg text-gray-600 font-semibold font-Poppins">
-            Here you can find your best job. Explore hundreds of jobs with us.
-            Join with us and find your best dream jobs.
+            Find, Prepare, and Secure Government Jobs with NaukriHub.in
           </p>
 
           <form className="">

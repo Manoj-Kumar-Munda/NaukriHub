@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Jobs from "../components/Jobs";
 
 const Home = () => {
   return (
@@ -9,6 +10,10 @@ const Home = () => {
         <Header />
         <Hero />
       </div>
+
+      <main>
+        <MainContent />
+      </main>
     </>
   );
 };
