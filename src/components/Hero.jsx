@@ -7,8 +7,8 @@ const Hero = () => {
       <section className="flex justify-between flex-wrap gap-y-6">
         <div className="self-center space-y-4 flex-1">
           <div className="space-y-2">
-            <h1 className="text-5xl font-bold">Hundreds of jobs for you</h1>
-            <h1 className="text-[#0188A6] text-5xl font-bold">
+            <h1 className="text-5xl font-bold font-SourceSans">Hundreds of jobs for you</h1>
+            <h1 className="text-[#0188A6] text-5xl font-bold font-SourceSans">
               Verified by us.
             </h1>
           </div>
@@ -27,7 +27,7 @@ const Hero = () => {
                   className="bg-white outline-none border-none rounded-md pl-2 py-2 placeholder:text-sm placeholder:font-Poppins w-60"
                 />
               </div>
-              <button className="font-Roboto text-white bg-[#0188A6] border-none text-sm px-3 rounded-r-md">
+              <button className="font-SourceSans font-semibold text-white bg-[#0188A6] border-none text-sm px-3 rounded-r-md">
                 Search
               </button>
             </div>
