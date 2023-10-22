@@ -3,7 +3,7 @@ import Jobs from './Jobs'
 
 const MainContent = () => {
   return (
-    <div className='flex justify-between max-w-7xl'>
+    <div className='max-w-7xl px-4 mx-auto'>
       <Jobs />
 
     </div>

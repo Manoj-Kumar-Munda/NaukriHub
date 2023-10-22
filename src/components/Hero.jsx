@@ -4,7 +4,7 @@ import hero from "../assets/hero.png";
 const Hero = () => {
   return (
     <div className="max-w-7xl px-4 py-6 md:py-6 mx-auto">
-      <section className="flex justify-between flex-wrap gap-y-6">
+      <section className="flex justify-center flex-wrap gap-y-6">
         <div className="self-center space-y-4 flex-1">
           <div className="space-y-2">
             <h1 className="text-5xl font-bold font-SourceSans">
