@@ -11,7 +11,7 @@ const ListItem = ({ data }) => {
         </div>
 
         <div className="">
-            <button className="px-2 py-2 text-sm font-semibold bg-secondary text-white whitespace-nowrap">View Details</button>
+            <button className="px-2 py-2 text-sm font-semibold bg-secondary text-white whitespace-nowrap rounded-md ">View Details</button>
         </div>
       </div>
     </li>
