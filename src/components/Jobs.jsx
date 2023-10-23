@@ -6,7 +6,7 @@ import ListItem from './ListItem'
 const Jobs = () => {
   return (
     <section className=''>
-      <h1 className='text-3xl font-bold py-4 text-center'>Latest <span className='text-secondary'>Jobs</span></h1>
+      <h1 className='text-3xl font-bold my-4 pb-2 text-start border-b-8 border-secondary'>Latest <span className='text-secondary'>Jobs</span></h1>
 
       <div className=''>
         <ul className='space-y-2'>
